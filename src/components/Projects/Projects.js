@@ -13,6 +13,7 @@ import helmet from "../../Assets/helmet.png";
 import Leukemia from "../../Assets/leukemia.png";
 import face from "../../Assets/face_recog.png";
 import pothole from "../../Assets/pothole.png";
+import face_mask from "../../Assets/face_mask.png";
 import linux from "../../Assets/linux.png";
 import airbnb from "../../Assets/airbnb.png";
 
@@ -64,7 +65,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={helmet}
+              imgPath={face_mask}
               isBlog={false}
               title="Face mask Detection"
               description="Implemented a CNN based on Mobile Net V2 architecture to detect presence of a face mask. Achieved 96% test accuracy. Deployed

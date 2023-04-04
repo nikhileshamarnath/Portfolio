@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -46,7 +46,7 @@ I am currently enrolled in the Computer Science Master's program at The Univerit
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Nikhilesh10"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
