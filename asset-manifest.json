@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4e558664.css",
-    "main.js": "/Portfolio/static/js/main.363ec426.js",
+    "main.js": "/Portfolio/static/js/main.25954fc1.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/avatar.png": "/Portfolio/static/media/avatar.fe2dcf1de195169e6d06.png",
     "static/media/face_recog.png": "/Portfolio/static/media/face_recog.a40af2a3b016bd0588dd.png",
+    "static/media/face_mask.png": "/Portfolio/static/media/face_mask.73590d435d289da482d6.png",
     "static/media/leaf.png": "/Portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/leukemia.png": "/Portfolio/static/media/leukemia.2583a960a30dae4d976c.png",
     "static/media/airbnb.png": "/Portfolio/static/media/airbnb.1ef9e3909e014b4d3d74.png",
@@ -20,16 +22,15 @@
     "static/media/pothole.png": "/Portfolio/static/media/pothole.2e17da7f69107a138636.png",
     "static/media/chatify.png": "/Portfolio/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/Portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
-    "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "main.4e558664.css.map": "/Portfolio/static/css/main.4e558664.css.map",
-    "main.363ec426.js.map": "/Portfolio/static/js/main.363ec426.js.map",
+    "main.25954fc1.js.map": "/Portfolio/static/js/main.25954fc1.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e558664.css",
-    "static/js/main.363ec426.js"
+    "static/js/main.25954fc1.js"
   ]
 }
