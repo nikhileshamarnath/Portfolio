@@ -2,20 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
-import helmet from "../../Assets/helmet.png";
 import Leukemia from "../../Assets/leukemia.png";
-import face from "../../Assets/face_recog.png";
+import Stock from "../../Assets/stock.jpeg";
 import pothole from "../../Assets/pothole.png";
 import face_mask from "../../Assets/face_mask.png";
 import linux from "../../Assets/linux.png";
 import airbnb from "../../Assets/airbnb.png";
+import reddit from "../../Assets/reddit.webp";
 
 function Projects() {
   return (
@@ -33,7 +27,7 @@ function Projects() {
             <ProjectCard
               imgPath={airbnb}
               isBlog={false}
-              title="Designed Airbnb Booking System"
+              title="Airbnb Booking System"
               description="Developed a web application in MERN Stack that allows users to search, host, bookmark and reserve and cancel a property.Implemented CRUD operations in MongoDB, user authentication, and REST API in Nodejs to support ajax calls from React."
               ghLink="https://github.com/Nikhilesh10/Airbnb"
               
@@ -77,14 +71,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Leukemia}
+              imgPath={reddit}
               isBlog={false}
-              title="Computer Assisted Leukemia Detection"
-              description="Implemented ALL (Acute Lymphoblastic Leukemia), AML(Acute Myeloid Leukemia) detection and counting of the blood cells from
-              microscopic blood images by using image preprocessing techniques for Diagnosis of Blood Cancer.
-              Used SVM Algorithm to distinguish between healthy and Cancer Cells and KNN Algorithm to further classify cancer cells into AML
-              or ALL type of Leukemia."
-              ghLink="https://github.com/Nikhilesh10/"
+              title="Real-time NER of Reddit Comments"
+              description="Developed a Python application with Reddit Python SDK to stream subreddit comments and push to Kafka.
+              Used PySpark’s streaming feature to filter named entities from topic comments using spacy and push to LogStash.
+              Created dashboard for visualization of the named entities in Kibana to analyze the trends in that subreddit.."
+              ghLink="https://github.com/Nikhilesh10/Real-time-NER-of-Reddit-Comments"
               // demoLink="https://github.com/Nikhilesh10/"
               
             />
@@ -92,11 +85,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={face}
+              imgPath={Stock}
               isBlog={false}
-              title="Face Recognition based Attendance System"
-              description="Developed a web-application using Python Flask that overcomes the hazels faced by faculties in a classroom. Deployed a Face Recognition based attendance system on Raspberry Pi to capture live attendance. Designed an NLP based Answer script evaluator.The integrated system can deny access to individuals without a face mask and those with a high body temperature"
-              ghLink="https://github.com/Nikhilesh10/Face-Recognition-Based-AttendanceSystem"
+              title="Live Stock Market Prediction"
+              description="Developed a Long Short-Term Memory (LSTM) model for stock market analysis using Yahoo time series data.
+              Utilized Yahoo API to stream live stock data to Kafka topic for real-time prediction and training.
+              Utilized Matplotlib to visualize the actual and predicted stock values obtained from the LSTM model for stock market analysis."
+              ghLink="https://github.com/"
                
             />
           </Col>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -21,6 +20,31 @@ import { FaJava } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 
 import { AiFillHtml5 } from "react-icons/ai";
+
+import {SiKubernetes} from "react-icons/si";
+
+import {SiElasticsearch} from "react-icons/si";
+import {SiLogstash} from "react-icons/si";
+import {SiKibana} from "react-icons/si";
+import {SiApachekafka} from "react-icons/si";
+import {SiApachespark} from "react-icons/si";
+import {SiTableau} from "react-icons/si";
+import {SiMysql} from "react-icons/si";
+import {SiExpress} from "react-icons/si";
+import {SiFlask} from "react-icons/si";
+import {SiOracle} from "react-icons/si";
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function Techstack() {
@@ -51,7 +75,7 @@ function Techstack() {
         <AiFillHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiKubernetes />
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
@@ -63,6 +87,41 @@ function Techstack() {
       
       <Col xs={4} md={2} className="tech-icons">
         <SiTensorflow />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElasticsearch />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLogstash />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKibana />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachekafka />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachespark />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOracle />
       </Col>
     </Row>
   );
