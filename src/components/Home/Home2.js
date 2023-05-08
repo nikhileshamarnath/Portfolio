@@ -25,9 +25,9 @@ function Home2() {
 I possess a quick understanding of various technologies, and I am skilled in breaking down complex problems into smaller manageable parts, which I can solve by producing clean code. I have experience in working with Agile Methodologies and practicing the SDLC process in day-to-day life.
 <br/>
 <br/>
-My fields of interests are Web Development, Data Science, Big Data, and Full-Stack Development.
+My fields of interests are Data Science, Big Data, and Full-Stack Development.
 
-I am currently enrolled in the Computer Science Master's program at The Univerity of Texas, Dallas, specializing in Data Science, and will be graduating in May 2023. I am open to Software Engineering and Data Science roles across the United States.
+I'm currently enrolled in the Computer Science Master's program at The Univerity of Texas - Dallas, specializing in Data Science, and will be graduating in May 2023. I am open to Software Engineering and Data Science roles across the United States.
 
             </p>
           </Col>
