@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4e558664.css",
-    "main.js": "/Portfolio/static/js/main.d326270a.js",
+    "main.js": "/Portfolio/static/js/main.6d7cd917.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/avatar.png": "/Portfolio/static/media/avatar.fe2dcf1de195169e6d06.png",
+    "static/media/avatar.png": "/Portfolio/static/media/avatar.40ec897deac64afa9f6b.png",
     "static/media/face_mask.png": "/Portfolio/static/media/face_mask.73590d435d289da482d6.png",
-    "static/media/leukemia.png": "/Portfolio/static/media/leukemia.2583a960a30dae4d976c.png",
     "static/media/airbnb.png": "/Portfolio/static/media/airbnb.1ef9e3909e014b4d3d74.png",
     "static/media/stock.jpeg": "/Portfolio/static/media/stock.2af3ac035fbb5d029f79.jpeg",
     "static/media/linux.png": "/Portfolio/static/media/linux.afd51b861a7aca03e402.png",
@@ -15,16 +14,18 @@
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/pothole.png": "/Portfolio/static/media/pothole.2e17da7f69107a138636.png",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/task.jpg": "/Portfolio/static/media/task.b7acf1afeee477d1e632.jpg",
+    "static/media/movie.jpg": "/Portfolio/static/media/movie.61bc35fd0a08d2b6aa09.jpg",
     "static/media/reddit.webp": "/Portfolio/static/media/reddit.21f0945e24639dcdae5f.webp",
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.4e558664.css.map": "/Portfolio/static/css/main.4e558664.css.map",
-    "main.d326270a.js.map": "/Portfolio/static/js/main.d326270a.js.map",
+    "main.6d7cd917.js.map": "/Portfolio/static/js/main.6d7cd917.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e558664.css",
-    "static/js/main.d326270a.js"
+    "static/js/main.6d7cd917.js"
   ]
 }
