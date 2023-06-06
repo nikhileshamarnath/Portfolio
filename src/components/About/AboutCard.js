@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Nikhilesh Amarnath </span>
             from <span className="purple"> Dallas, Texas.</span>
-            <br />I am a pursuing Master's in Computer Science at University of Texas - Dallas.
+            <br />I graduated with a Master's in Computer Science Degree from University of Texas - Dallas.
             <br />
             <br />
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>

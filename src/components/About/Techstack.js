@@ -32,7 +32,10 @@ import {SiTableau} from "react-icons/si";
 import {SiMysql} from "react-icons/si";
 import {SiExpress} from "react-icons/si";
 import {SiFlask} from "react-icons/si";
-import {SiOracle} from "react-icons/si";
+import {SiCss3} from "react-icons/si";
+import {SiSpringboot} from "react-icons/si"
+import {SiDocker} from "react-icons/si"
+import {SiAmazonaws} from "react-icons/si"
 
 
 
@@ -62,67 +65,72 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
-      
-      
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiExpress />
       </Col>
-      
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <AiFillHtml5 />
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiKubernetes />
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <AiFillHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <BsGithub />
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiElasticsearch />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLogstash />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiKibana />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
         <SiApachekafka />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <SiApachespark />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTableau />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
-      </Col>
+      </Col> 
       <Col xs={4} md={2} className="tech-icons">
         <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiOracle />
+        <SiTensorflow />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+      
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElasticsearch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLogstash />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKibana />
+      </Col>
+
     </Row>
   );
 }

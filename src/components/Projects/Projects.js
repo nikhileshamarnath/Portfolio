@@ -3,13 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import Leukemia from "../../Assets/leukemia.png";
 import Stock from "../../Assets/stock.jpeg";
 import pothole from "../../Assets/pothole.png";
 import face_mask from "../../Assets/face_mask.png";
 import linux from "../../Assets/linux.png";
 import airbnb from "../../Assets/airbnb.png";
 import reddit from "../../Assets/reddit.webp";
+import task from "../../Assets/task.jpg";
+import movie from "../../Assets/movie.jpg"
 
 function Projects() {
   return (
@@ -23,6 +24,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={task}
+              isBlog={false}
+              title="Task Tracking Application"
+              description="Designed and developed a Task Tracking micro-service full stack application with login, create, update, and delete tasks.
+              Implemented REST APIs following MVC architecture and JWT Authentication.
+              Containerized the services using Docker and deployed it on a Kubernetes cluster.
+              "
+              ghLink="https://github.com/Nikhilesh10/TaskTrackingApp-Back-End"
+              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={airbnb}
@@ -47,6 +61,34 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={reddit}
+              isBlog={false}
+              title="Real-time NER of Reddit Comments"
+              description="Developed a Python application with Reddit Python SDK to stream subreddit comments and push to Kafka.
+              Used PySpark’s streaming feature to filter named entities from topic comments using spacy and push to LogStash.
+              Created dashboard for visualization of the named entities in Kibana to analyze the trends in that subreddit."
+              ghLink="https://github.com/Nikhilesh10/Real-time-NER-of-Reddit-Comments"
+              // demoLink="https://github.com/Nikhilesh10/"
+              
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Stock}
+              isBlog={false}
+              title="Live Stock Market Prediction"
+              description="Developed a Long Short-Term Memory (LSTM) model for stock market analysis using Yahoo time series data.
+              Utilized Yahoo API to stream live stock data to Kafka topic for real-time prediction and training.
+              Utilized Matplotlib to visualize the actual and predicted stock values obtained from the LSTM model for stock market analysis."
+              ghLink="https://github.com/"
+               
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pothole}
               isBlog={false}
               title="Pothole Detection and Mapping Android Application"
@@ -62,39 +104,28 @@ function Projects() {
               imgPath={face_mask}
               isBlog={false}
               title="Face mask Detection"
-              description="Implemented a CNN based on Mobile Net V2 architecture to detect presence of a face mask. Achieved 96% test accuracy. Deployed
-              a contactless temperature sensor to measure the body temperature.The integrated system can deny access to individuals without a face mask and those with a high body temperature, making it an effective tool in preventing the spread of infectious diseases."
+              description="Implemented a CNN based on Mobile Net V2 architecture to detect presence of a face mask. Achieved 96% test accuracy. 
+              "
               ghLink="https://github.com/Nikhilesh10/CV_PROJ"
               
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={reddit}
-              isBlog={false}
-              title="Real-time NER of Reddit Comments"
-              description="Developed a Python application with Reddit Python SDK to stream subreddit comments and push to Kafka.
-              Used PySpark’s streaming feature to filter named entities from topic comments using spacy and push to LogStash.
-              Created dashboard for visualization of the named entities in Kibana to analyze the trends in that subreddit.."
-              ghLink="https://github.com/Nikhilesh10/Real-time-NER-of-Reddit-Comments"
-              // demoLink="https://github.com/Nikhilesh10/"
-              
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Stock}
+              imgPath={movie}
               isBlog={false}
-              title="Live Stock Market Prediction"
-              description="Developed a Long Short-Term Memory (LSTM) model for stock market analysis using Yahoo time series data.
-              Utilized Yahoo API to stream live stock data to Kafka topic for real-time prediction and training.
-              Utilized Matplotlib to visualize the actual and predicted stock values obtained from the LSTM model for stock market analysis."
-              ghLink="https://github.com/"
+              title="Movie Search Engine"
+              description="Built a movie search engine using plot summaries.
+              Utilized NLTK for stop-word removal and named entity extraction.
+              Implemented Tf-Idf and Cosine Similarity algorithms using MapReduce to find Document Correlation."
+              ghLink="https://github.com/Nikhilesh10/Movie-Search-Engine"
                
             />
           </Col>
+          
         </Row>
       </Container>
     </Container>

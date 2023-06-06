@@ -19,15 +19,15 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            A Software Engineer with entry-level experience specializing in full-stack application development, machine learning, deep learning, and React.js. Adept at identifying innovative solutions in collaboration with diverse teams using excellent communication skills and being a team player.
+            A Software Engineer with experience specializing in full-stack application development, Data Science, Database Design and Big Data. Adept at identifying innovative solutions in collaboration with diverse teams using excellent communication skills and being a team player.
 <br/>
 <br/>
 I possess a quick understanding of various technologies, and I am skilled in breaking down complex problems into smaller manageable parts, which I can solve by producing clean code. I have experience in working with Agile Methodologies and practicing the SDLC process in day-to-day life.
 <br/>
 <br/>
-My fields of interests are Data Science, Big Data, and Full-Stack Development.
+My fields of interests are Full-Stack Development, Big Data, and Data Science.
 
-I'm currently enrolled in the Computer Science Master's program at The Univerity of Texas - Dallas, specializing in Data Science, and will be graduating in May 2023. I am open to Software Engineering and Data Science roles across the United States.
+I have graduated with a Master's in Computer Science degree from The Univerity of Texas - Dallas, specializing in Data Science. I am open to Software Engineering and Data Science roles across the United States.
 
             </p>
           </Col>

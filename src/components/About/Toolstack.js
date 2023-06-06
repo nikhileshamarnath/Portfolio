@@ -4,9 +4,8 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
-  SiVercel,
-  SiGooglecolab
+  SiGooglecolab,
+  SiIntellijidea
 } from "react-icons/si";
 import {
   DiFirebase
@@ -15,6 +14,7 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
       </Col>
@@ -22,14 +22,15 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGooglecolab />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiFirebase />
-      </Col>
+      
     </Row>
   );
 }
