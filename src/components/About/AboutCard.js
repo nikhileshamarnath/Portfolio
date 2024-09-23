@@ -18,6 +18,28 @@ function AboutCard() {
             </h1>
 
             <h5 style={{ paddingBottom: "20px" }}>
+              <strong className="purple">7-Eleven, Texas, US | Software Developer</strong>
+            </h5>
+            <ul>
+              <li>Engineered and containerized a Promo-Engine application for deployment on ECS Fargate,
+                automating promotion evaluations using a JSON Rules Engine and adopting a microservices architecture
+                to enhance scalability,maintainability and modularity.</li>
+              <li>Facilitated 50+ strategic merchandise partnerships for 7-Eleven, driving over 2M in revenue from customer purchases.</li>
+              <li>Designed and implemented an event-driven architecture for the promotion processing pipeline using AWS SNS, SQS, and
+                Lambda Functions configured with the Serverless Framework.
+              </li>
+              <li>DOptimized real-time promotion updates using DocumentDB change-streams and AWS Kinesis, reducing opt-in/opt-out latency
+                by 30 percent and improving delivery efficiency across 10,000+ stores across North America.
+              </li>
+              <li>Integrated Application Performance Monitoring with New Relic, enabling real-time tracking and diagnostics to boost performance,
+                reliability, and minimize downtime. Integrated AWS CloudWatch for comprehensive logging and monitoring.
+              </li>
+              <li>Developed and maintained CI/CD pipelines with GitLab CI, ensuring smooth and continuous deployments.
+              </li>
+            </ul>
+            <br />
+            <br />
+            <h5 style={{ paddingBottom: "20px" }}>
               <strong className="purple">Intel Corporation, Oregon, US | Software Engineer Intern</strong>
             </h5>
             <ul>
