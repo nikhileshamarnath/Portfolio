@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4e558664.css",
-    "main.js": "/Portfolio/static/js/main.2ab6e105.js",
+    "main.js": "/Portfolio/static/js/main.fed52820.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/Portfolio/static/media/avatar.40ec897deac64afa9f6b.png",
@@ -9,7 +9,7 @@
     "static/media/airbnb.png": "/Portfolio/static/media/airbnb.1ef9e3909e014b4d3d74.png",
     "static/media/stock.jpeg": "/Portfolio/static/media/stock.2af3ac035fbb5d029f79.jpeg",
     "static/media/linux.png": "/Portfolio/static/media/linux.afd51b861a7aca03e402.png",
-    "static/media/Nikhilesh_Amarnath_Resume.pdf": "/Portfolio/static/media/Nikhilesh_Amarnath_Resume.7ea5bd1416b17d9633e1.pdf",
+    "static/media/Nikhilesh_Amarnath_Resume.pdf": "/Portfolio/static/media/Nikhilesh_Amarnath_Resume.d8f32f6c3150a2b05094.pdf",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/pothole.png": "/Portfolio/static/media/pothole.2e17da7f69107a138636.png",
@@ -20,12 +20,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.4e558664.css.map": "/Portfolio/static/css/main.4e558664.css.map",
-    "main.2ab6e105.js.map": "/Portfolio/static/js/main.2ab6e105.js.map",
+    "main.fed52820.js.map": "/Portfolio/static/js/main.fed52820.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e558664.css",
-    "static/js/main.2ab6e105.js"
+    "static/js/main.fed52820.js"
   ]
 }
